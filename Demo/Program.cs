@@ -1,4 +1,4 @@
-﻿namespace AssignmentOOP04
+﻿namespace Demo
 {
     internal class Program
     {
