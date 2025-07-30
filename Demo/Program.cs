@@ -1,4 +1,5 @@
 ﻿using Demo.Abstraction;
+using Demo.Mapping;
 using Demo.Operator_Overloading;
 
 
@@ -40,6 +41,7 @@ namespace Demo
             // .NET 3.1 Core 
             #endregion
 
+            #region Operator Overloading
             // Operator Overloading 
 
             // + - * / % < > <= >= != == || && ! | & ^  >>
@@ -50,12 +52,12 @@ namespace Demo
             //string Y = "Hello " + "World";
 
             // Complex Number : Real + Imag
-            
+
             // 4 + 3 i
             // 4 + 3 ت
 
-            Complex C01 = new Complex() { Real = 3, Imag = 4 };
-            Complex C02 = new Complex() { Real = 4, Imag = 2 };
+            //Complex C01 = new Complex() { Real = 3, Imag = 4 };
+            //Complex C02 = new Complex() { Real = 4, Imag = 2 };
 
             //Console.WriteLine(C01);
             //Console.WriteLine(C02);
@@ -74,17 +76,61 @@ namespace Demo
 
             //Console.WriteLine(C01);
 
-            if (C01 > C02)
-            {
-                Console.WriteLine("C01 is greater than C02");
-            }
-            else
-            {
-                Console.WriteLine("C01 is not greater than C02");
-            }
+            //if (C01 > C02)
+            //{
+            //    Console.WriteLine("C01 is greater than C02");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("C01 is not greater than C02");
+            //} 
+            #endregion
+
+            #region User-Defined Casting Operator & Manual Mapping
+            // double X = 12;
+
+            // int Y = (int) X;
+            // (int) : Casting Operator
+
+            //Complex C01 = new Complex() { Real = 3, Imag = 4};
+
+            //string S = (string)C01;
+            // (string) : Convert complex number to string
+
+            // operator overloading
+            // User-Defined Casting Operator
+
+            //int X = (int) C01;
+            //Console.WriteLine(X);
+
+            //int X = (int)new Complex() { Real = 4, Imag = 3 };
+
+            // Mapping : Convert From Datatype to Datatype
+
+            // Code first
+            // DB first
+
+            // User [ id - name - email - password - username - phonenumber - cardnumber - Expiredate ]
+
+            // UserViewModel
+            // UserDto
+            // [ Name , Email , Password ]
 
 
+            //User user = new User(); // From DB
 
+            // Manual Mapping
+            //UserDto userDto = new UserDto()
+            //{
+            //    Email = user.Email,
+            //    Name = user.Name,
+            //    PhoneNumber = user.PhoneNumber
+            //};
+
+            // Casting Operator
+
+            // AutoMapper : Mapping Automatic 
+            #endregion
 
 
 

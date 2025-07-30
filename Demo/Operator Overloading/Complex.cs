@@ -103,6 +103,23 @@ namespace Demo.Operator_Overloading
             return left.Real != right.Real || right.Imag != left.Imag;
         }
 
+        // User-Defined Casting Operator
+        // Complex --> String
+        // Function : public - static
+
+        // Implicit Casting - Explicit Casting 
+        public static explicit operator string(Complex complex)
+        {
+            return complex.ToString();
+        }
+
+        public static explicit operator int(Complex complex)
+        {
+            return complex.Real;
+        }
+
+
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";
