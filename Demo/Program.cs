@@ -30,10 +30,13 @@ namespace Demo
 
             //rectangle.Perimeter = 10;
             Console.WriteLine(rectangle.Perimeter);
-            Console.WriteLine(rectangle.GetArea()); 
+            Console.WriteLine(rectangle.GetArea());
             #endregion
 
-
+            #region Interface VS Abstract Class
+            // Interface VS Abstract Class
+            // .NET 3.1 Core 
+            #endregion
 
         }
     }
