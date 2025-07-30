@@ -163,6 +163,12 @@ namespace Demo
             //Console.WriteLine(Utilities.PI); 
             #endregion
 
+            #region Sealed
+            // Sealed : C# Keyword [ Calsses - Methods - Properties ]  
+            #endregion
+
+
+
 
 
         }
