@@ -69,10 +69,19 @@ namespace Demo
 
             //Console.WriteLine(C01);
 
-            Console.WriteLine(C01);
-            C01--;
+            //Console.WriteLine(C01);
+            //C01--;
 
-            Console.WriteLine(C01);
+            //Console.WriteLine(C01);
+
+            if (C01 > C02)
+            {
+                Console.WriteLine("C01 is greater than C02");
+            }
+            else
+            {
+                Console.WriteLine("C01 is not greater than C02");
+            }
 
 
 

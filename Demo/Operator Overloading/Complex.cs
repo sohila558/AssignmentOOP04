@@ -62,6 +62,46 @@ namespace Demo.Operator_Overloading
                 return new Complex();
         }
 
+        // Compraison Operator < > <= >= != == 
+        // Return Type must be boolean
+
+        public static bool operator >(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag > right.Imag;
+            return left.Real > right.Real;
+        }
+
+        public static bool operator <(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag < right.Imag;
+            return left.Real < right.Real;
+        }
+
+        public static bool operator >=(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag >= right.Imag;
+            return left.Real >= right.Real;
+        }
+
+        public static bool operator <=(Complex left, Complex right)
+        {
+            if (left.Real == right.Real)
+                return left.Imag <= right.Imag;
+            return left.Real <= right.Real;
+        }
+
+        public static bool operator ==(Complex left, Complex right)
+        {
+            return left.Real == right.Real && left.Imag == left.Imag;
+        }
+
+        public static bool operator !=(Complex left, Complex right)
+        {
+            return left.Real != right.Real || right.Imag != left.Imag;
+        }
 
         public override string ToString()
         {
