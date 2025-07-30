@@ -1,4 +1,6 @@
 ﻿using Demo.Abstraction;
+using Demo.Operator_Overloading;
+
 
 namespace Demo
 {
@@ -22,21 +24,53 @@ namespace Demo
 
             //shape.GetArea();
 
-            Rectangle rectangle = new Rectangle()
-            {
-                Dim01 = 12,
-                Dim02 = 3
-            };
+            //Rectangle rectangle = new Rectangle()
+            //{
+            //    Dim01 = 12,
+            //    Dim02 = 3
+            //};
 
-            //rectangle.Perimeter = 10;
-            Console.WriteLine(rectangle.Perimeter);
-            Console.WriteLine(rectangle.GetArea());
+            ////rectangle.Perimeter = 10;
+            //Console.WriteLine(rectangle.Perimeter);
+            //Console.WriteLine(rectangle.GetArea());
             #endregion
 
             #region Interface VS Abstract Class
             // Interface VS Abstract Class
             // .NET 3.1 Core 
             #endregion
+
+            // Operator Overloading 
+
+            // + - * / % < > <= >= != == || && ! | & ^  >>
+
+            // +
+
+            //int X = 3 + 4;
+            //string Y = "Hello " + "World";
+
+            // Complex Number : Real + Imag
+            
+            // 4 + 3 i
+            // 4 + 3 ت
+
+            Complex C01 = new Complex() { Real = 3, Imag = 4 };
+            Complex C02 = new Complex() { Real = 4, Imag = 2 };
+
+            //Console.WriteLine(C01);
+            //Console.WriteLine(C02);
+
+            //Complex C03 = C01 - null;
+
+            //Console.WriteLine(C03);
+
+
+
+
+
+
+
+
 
         }
     }
