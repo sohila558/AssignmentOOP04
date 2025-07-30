@@ -1,4 +1,5 @@
 ﻿using AssignmentOOP04.First_Project;
+using AssignmentOOP04.Second_Project;
 
 namespace AssignmentOOP04
 {
@@ -21,6 +22,13 @@ namespace AssignmentOOP04
             //Duration D5 = D1 + D4;
             //Console.WriteLine(D5); 
 
+            #endregion
+
+            #region Second Project
+            //Console.WriteLine("Add: " + Maths.Add(5, 4));
+            //Console.WriteLine("Subtract: " + Maths.Subtract(4, 2));
+            //Console.WriteLine("Multiply: " + Maths.Multiply(2, 5));
+            //Console.WriteLine("Divide: " + Maths.Divide(10, 5)); 
             #endregion
         }
     }
