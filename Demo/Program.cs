@@ -1,6 +1,7 @@
 ﻿using Demo.Abstraction;
 using Demo.Mapping;
 using Demo.Operator_Overloading;
+using Demo.Partial;
 using Demo.Static;
 
 
@@ -167,6 +168,12 @@ namespace Demo
             // Sealed : C# Keyword [ Calsses - Methods - Properties ]  
             #endregion
 
+            #region Partial
+            // Partial
+
+            //Employee employee = new Employee();
+            //employee. 
+            #endregion
 
 
 
