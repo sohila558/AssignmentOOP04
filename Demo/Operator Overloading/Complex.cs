@@ -34,6 +34,35 @@ namespace Demo.Operator_Overloading
             };
         }
 
+
+        // Operator Overloading
+        // ++ -- 
+        // Function : public - static 
+
+        // Unary Operator ++ --
+
+        public static Complex operator ++(Complex complex)
+        {
+            if (complex is not null)
+            {
+                complex.Real++;
+                return complex;
+            }
+            else
+                return new Complex();
+        }
+        public static Complex operator --(Complex complex)
+        {
+            if (complex is not null)
+            {
+                complex.Real--;
+                return complex;
+            }
+            else
+                return new Complex();
+        }
+
+
         public override string ToString()
         {
             return $"{Real} + {Imag} i";

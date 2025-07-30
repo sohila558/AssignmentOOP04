@@ -64,8 +64,15 @@ namespace Demo
 
             //Console.WriteLine(C03);
 
+            //Console.WriteLine(C01);
+            //C01++;
 
+            //Console.WriteLine(C01);
 
+            Console.WriteLine(C01);
+            C01--;
+
+            Console.WriteLine(C01);
 
 
 
