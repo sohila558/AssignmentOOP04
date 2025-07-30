@@ -1,6 +1,7 @@
 ﻿using Demo.Abstraction;
 using Demo.Mapping;
 using Demo.Operator_Overloading;
+using Demo.Static;
 
 
 namespace Demo
@@ -130,6 +131,36 @@ namespace Demo
             // Casting Operator
 
             // AutoMapper : Mapping Automatic 
+            #endregion
+
+            #region Static
+            // Static : C# keyword you can use it with [ Class - Method - Property - Constructor - Attribute ]
+            // static class
+            // static method 
+            // static property
+            // static constructor
+            // static attribute
+
+            //Utilities U01 = new Utilities();
+            //Utilities U02 = new Utilities();
+            //Utilities U03 = new Utilities();
+
+            //Console.WriteLine(U01.CaToInch(254)); // 100
+            //Console.WriteLine(U02.CaToInch(254)); // 100
+            //Console.WriteLine(U03.CaToInch(254)); // 100
+
+            //Console.WriteLine(Utilities.CaToInch(254)); // 100
+            //Console.WriteLine(Utilities.CaToInch(254)); // 100
+            //Console.WriteLine(Utilities.CaToInch(254)); // 100
+
+            //Console.WriteLine(U01.PI);
+            //Console.WriteLine(U02.PI);
+            //Console.WriteLine(U03.PI);
+
+
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI);
+            //Console.WriteLine(Utilities.PI); 
             #endregion
 
 
